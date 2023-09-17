@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae19674e-f565-4e23-9760-790372a0b7b7" name="Changes" comment="" />
+    <list default="true" id="ae19674e-f565-4e23-9760-790372a0b7b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/views/DomainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/views/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/views/PersonsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/queries/DomainQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/connection/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/connection/DataBaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/connection/DataBaseProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/connection/DataBaseProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/models/Domain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/Domain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/dto/PersonCountDomainsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/queries/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/queries/AuthQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/queries/DomainData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataBase/queries/PersonData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/queries/PersonQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,17 +51,22 @@
     </option>
   </component>
   <component name="ProjectId" id="2VItOOp4eLKNGQRe6mUkdXxNIDa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/as.selezneva/repos/j140_2/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/as.selezneva/repos/j140_2/src/main/java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -47,11 +75,11 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.App" />
+      <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="j140_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

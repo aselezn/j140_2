@@ -2,9 +2,10 @@ module app {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
-    opens DataBase.models;
+    opens database.models;
+    opens database.dto;
 
 
-    opens app to javafx.fxml;
-    exports app;
+    opens application to javafx.fxml;
+    exports application;
 }
